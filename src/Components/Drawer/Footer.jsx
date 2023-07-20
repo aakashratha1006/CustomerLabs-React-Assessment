@@ -5,7 +5,7 @@ export const Footer = ({ handleCancel, sendDataToServer }) => {
 
   return (
     <>
-      <div style={{ marginTop: 'auto', backgroundColor: grey[200], padding: '20px 0' }}>
+      <div style={{ marginTop: 'auto', backgroundColor: grey[200], padding: '20px' }}>
         <Button 
           variant="contained" 
           color="success" 

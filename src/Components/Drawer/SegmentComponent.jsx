@@ -136,8 +136,7 @@ export function SegmentComponent(){
           component="button"
           underline="always"
           variant="body1"
-          marginTop="20px"
-          sx={{color: "cyan"}}
+          sx={{color: "cyan", padding: "20px 0 210px 0"}}
           onClick={() => {
             handleAdd();
             setSelectedValue('');
