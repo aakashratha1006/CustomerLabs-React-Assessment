@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { AppBar } from "@mui/material";
+import { Header } from "./Components/Header/Header.jsx";
+import { SaveSegmentButton } from "./Components/SaveSegment/SaveSegment";
 
+
+// sx={{ top: 0 }}
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppBar position="fixed">
+        <Header text="View Audience" />
+      </AppBar>
+      <SaveSegmentButton />
     </div>
   );
 }
